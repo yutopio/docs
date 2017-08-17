@@ -40,8 +40,11 @@ Prints out a short help for the command.
 
 List the project references for the specified project:
 
-`dotnet list app/app.csproj reference`
+```console
+dotnet list app/app.csproj reference
+```
 
+```console
 List the project references for the project in the current directory:
-
+```
 `dotnet list reference`
