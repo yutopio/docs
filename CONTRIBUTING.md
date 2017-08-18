@@ -16,7 +16,7 @@ You'll need a basic understanding of [Git and GitHub.com](https://guides.github.
 **Step 1:** Skip this step for small changes. Open an [issue](https://github.com/dotnet/docs/issues) describing what you want to do, such as change an existing article or create a new one.
 The content inside the **docs** folder is organized into sections that are reflected in the Table of Contents (TOC). Define where the topic will be located in the TOC. Get feedback on your proposal.
 
-You can also look at our [open issues](https://github.com/dotnet/docs/issues) list and volunteer to work on the ones you're interested in. We use the [up-for-grabs](https://github.com/dotnet/docs/labels/up-for-grabs) label to tag issues open for contribution.
+You can also look at our [open issues](https://github.com/dotnet/docs/issues) list and volunteer to work on the ones you're interested in. We use the [up-for-grabs](https://github.com/dotnet/docs/labels/up-for-grabs) label to tag issues open for contribution. 
 
 **Step 2:** Fork the `/dotnet/docs` repo and create a branch for your changes.
 
