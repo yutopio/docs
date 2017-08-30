@@ -1,14 +1,14 @@
 ---
 title: Get started with .NET Core
 description: Find resources to learn how to build .NET Core applications on Windows, Linux and macOS.
-keywords: .NET, .NET Core
-author: johalex
+author: JRAlexander
 ms.author: johalex
-ms.date: 08/14/2017
+ms.date: 08/29/2017
 ms.topic: article
 ms.prod: .net-core
-ms.devlang: dotnet
-ms.assetid: d1453a0d-317c-4da6-b68e-422a2c0bfe49
+helpviewer_keywords: 
+  - ".NET Core, Get started"
+  - "Get started [.NET Core]"
 ---
 # Get started with .NET Core
 
@@ -32,21 +32,12 @@ See the [Prerequisites for Windows development](windows-prerequisites.md) topic 
 
 ## Linux
 
-Install .NET Core on your distribution/version:
-
-* [Red Hat Enterprise Linux 7](https://www.microsoft.com/net/core#linuxredhat)
-* [Ubuntu 14.04, 16.04, 16.10, 17.04 & Linux Mint 17, 18](https://www.microsoft.com/net/core#linuxubuntu)
-* [Debian 8.2+, 8.7+, 9](https://www.microsoft.com/net/core#linuxdebian)
-* [Fedora 24, 25, 26](https://www.microsoft.com/net/core#linuxfedora)
-* [CentOS 7.1 & Oracle Linux 7.1](https://www.microsoft.com/net/core#linuxcentos)
-* [SUSE Enterprise Linux (SLES) 12 SP2, openSUSE 42.1, 42.2](https://www.microsoft.com/net/core#linuxopensuse)
-
 You can get started developing .NET Core apps by following these step-by-step tutorials.
 
 * [Getting started with .NET Core using the command-line](tutorials/using-with-xplat-cli.md) - Use any code editor with the [.NET Core cross-platform command-line interface (CLI)](tools/index.md).
 * [Get started with Visual Studio Code using C# and .NET Core on Ubuntu](https://channel9.msdn.com/Blogs/dotnet/Get-started-with-VS-Code-Csharp-dotnet-Core-Ubuntu) - This [Channel9](https://channel9.msdn.com) video shows you how to install and use [Visual Studio Code](https://code.visualstudio.com/), Microsoft's lightweight cross-platform code editor, to create your first console application in .NET Core on Ubuntu 14.04.
 
-.NET Core is supported by the Linux distributions and versions listed above in the installation links.
+See the [Prerequisites for .NET Core on Linux](linux-prerequisites.md) topic for a list of the supported Linux versions.
 
 ## OS X / macOS
 
