@@ -9,7 +9,7 @@ ms.technology:
   - "dotnet-winforms"
 ms.tgt_pltfrm: ""
 ms.topic: "article"
-api_name: "System.Windows.Forms.Design.DataMemberFieldEditor"
+api_name: "System.Windows.Forms.Design.DataMemberFieldEditor2"
 api_location: 
   - "System.Design.dll"
 api_type: 
