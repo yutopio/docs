@@ -23,6 +23,7 @@ As .NET Core becomes available on more and more platforms, it's useful to learn 
 2. **The framework** is made of a runtime and supporting managed libraries. The framework may be installed as part of an application, or as a shared framework in a central location that can be reused by multiple applications. There may be any number of shared frameworks installed on a given machine. Shared frameworks live under `shared/Microsoft.NETCore.App/<version>`. The host rolls forward across patch versions. If an application targets `Microsoft.NETCore.App` 1.0.0, and only 1.0.4 is present, the app is launched against 1.0.4.
 3. **The SDK** (also known as "the tooling") is a set of managed tools that can be used to write and build .NET Core libraries and applications. The SDK includes the CLI, MSBuild, and associated build tasks and targets, NuGet, new project templates, etc. It's possible to have multiple SDKs on a machine (for example, to build projects that explicitly require an older version), but the recommendation is to use the latest released tools.
 
+
 ## Recommended package names
 
 The following guidance is our recommendation for package names. A package maintainer may choose to diverge from it based on various reasons, such as, a different tradition of the specific distribution they're targeting.
