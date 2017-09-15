@@ -1,7 +1,6 @@
 {  
    "need_generate_intellisense":false,
    "need_preview_pull_request":true,
-   "package_version":"1.37.0-alpha-375-g1c722a0",
    "need_pr_comments":false,
    "need_generate_pdf_url_template":true,
    "git_repository_branch_open_to_public_contributors":"master",
