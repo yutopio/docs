@@ -79,6 +79,7 @@ The following table summarizes IntelliSense features supported and not supported
 |Organize Usings/Open|Organizes namespaces referenced by **using** statements in C# or **open** directives in F#.|No|
 |Parameter Info|Shows helpful information about parameters as you type a function call.|Yes.|
 |Quick Info|Displays the complete declaration for any identifier in your code.|Yes|
+
 Refactoring of F# code isn't supported in Visual Studio 2012.
 
 ## Debugging Features
