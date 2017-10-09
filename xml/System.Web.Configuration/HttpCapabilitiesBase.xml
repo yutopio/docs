@@ -20,7 +20,7 @@
       <format type="text/markdown"><![CDATA[  
   
 ## Remarks  
- <xref:System.Web.Configuration.HttpCapabilitiesBase> is the base class from which the <xref:System.Web.HttpBrowserCapabilities> class is derived. <xref:System.Web.Configuration.HttpCapabilitiesBase> offers a large number of read-only properties that provide type-safe access to a browser's capabilities dictionary. You can access the <xref:System.Web.HttpBrowserCapabilities> class through the <xref:System.Web.HttpRequest.Browser%2A> property that is exposed by the ASP.NET <xref:System.Web.HttpRequest.Browser%2A?displayProperty=fullName> property.  
+ <xref:System.Web.Configuration.HttpCapabilitiesBase> is the base class from which the <xref:System.Web.HttpBrowserCapabilities> class is derived. <xref:System.Web.Configuration.HttpCapabilitiesBase> offers a large number of read-only properties that provide type-safe access to a browser's capabilities dictionary. You can access the <xref:System.Web.HttpBrowserCapabilities> class through the <xref:System.Web.HttpRequest.Browser%2A> property that is exposed by the ASP.NET <xref:System.Web.HttpRequest.Browser%2A?displayProperty=nameWithType> property.  
   
    
   
@@ -3030,7 +3030,7 @@ CACHE-CONTROL: NO-CACHE
 ## Remarks  
  The <xref:System.Web.Configuration.HttpCapabilitiesBase.SupportsInputMode%2A> property applies only to i-mode–compatible devices.  
   
- Set i-Phone–specific picture symbols for i-mode–compatible browsers by using the <xref:System.Web.UI.WebControls.Image.ImageUrl%2A>property.  
+ Set i-Phone–specific picture symbols for i-mode–compatible browsers by using the <xref:System.Web.UI.WebControls.Image.ImageUrl%2A> property.  
   
    
   

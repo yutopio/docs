@@ -33,7 +33,13 @@ translation.priority.mt:
 # Get started with Visual Basic
 This section of the documentation helps you get started with Visual Basic application development.  
   
-## In this section  
+## Get started with Visual Basic and .NET Core
+
+[Build a Visual Basic Hello World application with .NET Core in Visual Studio 2017](../../core/tutorials/vb-with-visual-studio.md)
+
+[Build a class library with Visual Basic and .NET Core in Visual Studio 2017](../../core/tutorials/vb-library-with-visual-studio.md)  
+
+## Additional information
 
 [What's new for Visual Basic](whats-new.md)   
 Lists new features in each of the versions of Visual Basic .NET.
@@ -43,7 +49,13 @@ Lists changes in this release that might prevent an application from compiling o
   
 [Additional Resources for Visual Basic Programmers](additional-resources.md)  
 Provides a list of Web sites and newsgroups that can help you find answers to common problems.  
-  
+
+## Develop .NET Core applications with Visual Basic
+
+[Build a Visual Basic Hello World app with .NET Core in Visual Studio 2017](../../core/tutorials/vb-with-visual-studio.md) 
+
+[Build a class library with Visual Basic and .NET Core in Visual Studio 2017](../../core/tutorials/vb-library-with-visual-studio.md) 
+
 ## See also
  [Get Visual Basic](https://www.visualstudio.com/downloads/)  
  Provides download links for Visual Studio versions that include Visual basic support, including free versions.  
@@ -66,7 +78,7 @@ Provides a list of Web sites and newsgroups that can help you find answers to co
  [Visual Studio](/visualstudio/)  
  Provides links into the [!INCLUDE[vsprvs](~/includes/vsprvs-md.md)] documentation.  
   
- [C#](../../csharp/csharp.md)  
+ [C#](../../csharp/index.md)
  Provides links into the documentation on application development with [!INCLUDE[csprcs](~/includes/csprcs-md.md)].  
   
  [Visual C++](/cpp/)  

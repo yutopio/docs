@@ -2820,7 +2820,7 @@ New table name: FilteredTable
       </Docs>
     </Member>
     <Member MemberName="ToTable">
-      <MemberSignature Language="C#" Value="public System.Data.DataTable ToTable (bool distinct, string[] columnNames);" />
+      <MemberSignature Language="C#" Value="public System.Data.DataTable ToTable (bool distinct, params string[] columnNames);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Data.DataTable ToTable(bool distinct, string[] columnNames) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.DataView.ToTable(System.Boolean,System.String[])" />
       <MemberType>Method</MemberType>
@@ -2864,7 +2864,7 @@ New table name: FilteredTable
    
   
 ## Examples  
- The following console application example creates a <xref:System.Data.DataTable>, fills the <xref:System.Data.DataTable>with data, sorts the <xref:System.Data.DataView>, and finally creates a <xref:System.Data.DataTable>with just two columns, limited to rows in which all values are unique.  
+ The following console application example creates a <xref:System.Data.DataTable>, fills the <xref:System.Data.DataTable> with data, sorts the <xref:System.Data.DataView>, and finally creates a <xref:System.Data.DataTable> with just two columns, limited to rows in which all values are unique.  
   
  [!code-csharp[DataWorks DataView.ToTableUniqueValues#1](~/samples/snippets/csharp/VS_Snippets_ADO.NET/DataWorks DataView.ToTableUniqueValues/CS/source.cs#1)]
  [!code-vb[DataWorks DataView.ToTableUniqueValues#1](~/samples/snippets/visualbasic/VS_Snippets_ADO.NET/DataWorks DataView.ToTableUniqueValues/VB/source.vb#1)]  
@@ -2904,7 +2904,7 @@ New table name: NewTable
       </Docs>
     </Member>
     <Member MemberName="ToTable">
-      <MemberSignature Language="C#" Value="public System.Data.DataTable ToTable (string tableName, bool distinct, string[] columnNames);" />
+      <MemberSignature Language="C#" Value="public System.Data.DataTable ToTable (string tableName, bool distinct, params string[] columnNames);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Data.DataTable ToTable(string tableName, bool distinct, string[] columnNames) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.DataView.ToTable(System.String,System.Boolean,System.String[])" />
       <MemberType>Method</MemberType>
@@ -2950,7 +2950,7 @@ New table name: NewTable
    
   
 ## Examples  
- The following console application example creates a <xref:System.Data.DataTable>, fills the <xref:System.Data.DataTable> with data, sorts the <xref:System.Data.DataView>, and finally creates a <xref:System.Data.DataTable>with a new name that contains just two columns, limited to rows in which all values are unique.  
+ The following console application example creates a <xref:System.Data.DataTable>, fills the <xref:System.Data.DataTable> with data, sorts the <xref:System.Data.DataView>, and finally creates a <xref:System.Data.DataTable> with a new name that contains just two columns, limited to rows in which all values are unique.  
   
  [!code-csharp[DataWorks DataView.ToTableUniqueValuesName#1](~/samples/snippets/csharp/VS_Snippets_ADO.NET/DataWorks DataView.ToTableUniqueValuesName/CS/source.cs#1)]
  [!code-vb[DataWorks DataView.ToTableUniqueValuesName#1](~/samples/snippets/visualbasic/VS_Snippets_ADO.NET/DataWorks DataView.ToTableUniqueValuesName/VB/source.vb#1)]  

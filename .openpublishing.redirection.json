@@ -25,6 +25,11 @@
             "redirect_url": "/dotnet/core/deploying/index"
         },
         {
+            "source_path": "docs/core/docker/visual-studio-tools-for-docker.md",
+            "redirect_url": "/aspnet/core/publishing/visual-studio-tools-for-docker",
+            "redirect_document_id": true
+        },        
+        {
             "source_path": "docs/core/getting-started.md",
             "redirect_url": "/dotnet/core/get-started",
             "redirect_document_id": true
@@ -251,6 +256,10 @@
             "redirect_url": "/dotnet/csharp/programming-guide/generics/index"
         },
         {
+            "source_path": "docs/csharp/getting-started/additional-resources.md",
+            "redirect_url": "/dotnet/csharp/getting-started/index"
+        },
+        {
             "source_path": "docs/csharp/getting-started/breaking-changes-in-visual-studio-2013.md",
             "redirect_url": "https://msdn.microsoft.com/library/hh678682(v=vs.120)"
         },
@@ -426,6 +435,10 @@
             "redirect_document_id": true
         },
         {
+            "source_path": "docs/framework/deployment/repair.md",
+            "redirect_url": "/dotnet/framework/install/repair"
+        },
+        {
             "source_path": "docs/framework/deployment/windows/index.md",
             "redirect_url": "/dotnet/framework/install/"
         },
@@ -491,6 +504,50 @@
             "redirect_url": "/dotnet/framework/migration-guide/application-compatibility"
         },
         {
+            "source_path": "docs/framework/migration-guide/mitigation-claimsidentity-constructor.md",
+            "redirect_url": "/dotnet/framework/migration-guide//retargeting/4.6.1-4.6.2"
+        },
+        {
+            "source_path": "docs/framework/migration-guide/mitigation-cspparameters-parentwindowhandle-expects-an-hwnd.md",
+            "redirect_url": "/dotnet/framework/migration-guide/retargeting/4.6.2-4.7"
+        },
+        {
+            "source_path": "docs/framework/migration-guide/migration-guide/mitigation-culture-and-asynchronous-operations.md",
+            "redirect_url": "/dotnet/framework/migration-guide/retargeting/4.5.2-4.6"
+        },
+        {
+            "source_path": "docs/framework/migration-guide/migration-guide/mitigation-culture-and-dispatcher-operations-in-wpf-apps.md",
+            "redirect_url": "/dotnet/framework/migration-guide/retargeting/4.5.2-4.6"
+        },
+        {
+            "source_path": "docs/framework/migration-guide/migration-guide/mitigation-default-authorizationcontext.md",
+            "redirect_url": "/dotnet/framework/migration-guide/retargeting/4.5.2-4.6"
+        },
+        {  
+            "source_path": "docs/framework/migration-guide/migration-guide/mitigation-eventsource-writeevent-method-calls.md",
+            "redirect_url": "/dotnet/framework/migration-guide/runtimef/4.5-4.5.1"
+        },
+        {  
+            "source_path": "docs/framework/migration-guide/migration-guide/mitigation-grid-control.md",
+            "redirect_url": "/dotnet/framework/migration-guide/retargeting/4.6.2-4.7"
+        },
+        {  
+            "source_path": "docs/framework/migration-guide/migration-guide/mitigation-horizontal-scrolling-and-virtualization.md",
+            "redirect_url": "/dotnet/framework/migration-guide/runtime/4.6.1-4.6.2"
+        },
+        {  
+            "source_path": "docs/framework/migration-guide/migration-guide/mitigation-long-path-support.md",
+            "redirect_url": "/dotnet/framework/migration-guide/retargeting/4.6.1-4.6.2"
+        },
+        {  
+            "source_path": "docs/framework/migration-guide/migration-guide/mitigation-memberdescriptor-equals.md",
+            "redirect_url": "/dotnet/framework/migration-guide/retargeting/4.6.1-4.6.2"
+        },
+        {  
+            "source_path": "docs/framework/migration-guide/migration-guide/mitigation-minfreememorypercentagetoactiveservice-configuration-setting.md",
+            "redirect_url": "/dotnet/framework/migration-guide/runtime/4.5-4.5.1"
+        },
+        {
             "source_path": "docs/framework/migration-guide/retargeting-changes-in-the-net-framework-4-5-1.md",
             "redirect_url": "/dotnet/framework/migration-guide/retargeting/index"
         },
@@ -537,6 +594,10 @@
         {
             "source_path": "docs/framework/migration-guide/runtime-changes-in-the-net-framework-4-7.md",
             "redirect_url": "/dotnet/framework/migration-guide/runtime/index"
+        },
+        {
+            "source_path": "docs/framework/wcf/windows-communication-foundation.md",
+            "redirect_url": "/dotnet/framework/wcf/index"
         },
         {
             "source_path": "docs/framework/whats-new/whats-new.md",
@@ -900,6 +961,11 @@
             "source_path": "docs/visual-basic/getting-started/breaking-changes-in-visual-studio-2015.md",
             "redirect_url": "/dotnet/visual-basic/getting-started/breaking-changes-in-visual-studio"
         },
+        {
+            "source_path": "docs/visual-basic/reference/vb6-support.md",
+            "redirect_url": "/visualstudio/vb6/vb6-support",
+            "redirect_document_id": true
+        },
         {        
             "source_path": "docs/fsharp/tutorials/getting-started/getting-started-visual-studio.md",
             "redirect_url": "/dotnet/fsharp/get-started/getting-started-visual-studio",
@@ -919,6 +985,35 @@
             "source_path": "docs/fsharp/tutorials/getting-started/getting-started-command-line.md",
             "redirect_url": "/dotnet/fsharp/get-started/get-started-command-line",
             "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/csharp/getting-started/library-with-visual-studio.md",
+            "redirect_url": "/dotnet/core/tutorials/library-with-visual-studio"
+        },
+        {
+            "source_path": "docs/csharp/getting-started/testing-library-with-visual-studio.md",
+            "redirect_url": "/dotnet/core/tutorials/testing-library-with-visual-studio"
+        },
+        {
+            "source_path": "docs/csharp/getting-started/consuming-library-with-visual-studio.md",
+            "redirect_url": "/dotnet/core/tutorials/consuming-library-with-visual-studio"
+        },
+        {
+            "source_path": "docs/csharp/language-reference/compiler-options/app-deployment.md",
+            "redirect_url": "/dotnet/framework/deployment/deployment-guide-for-developers"
+        },
+        {
+            "source_path": "docs/csharp/programming-guide/generics/default-keyword-in-generics.md",
+            "redirect_url": "/dotnet/csharp/programming-guide/statements-expressions-operators/default-value-expressions",
+            "redirect_document_id": true
+        },
+        {
+            "source_path": "docs/csharp/csharp.md",
+            "redirect_url": "/dotnet/csharp"
+        },
+        {
+            "source_path": "docs/csharp/getting-started/getting-started-with-csharp.md",
+            "redirect_url": "/dotnet/csharp/getting-started"
         }
     ]
 }

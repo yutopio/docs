@@ -352,7 +352,7 @@ public String Calculate(String input)
 }  
 ```  
   
- The initial steps parse the input string into left and right operands and an operator character.  In the `foreach` loop, every member of the `operations` collection is examined. These objects are of type <xref:System.Lazy%602>, and their metadata values and exported object can be accessed with the <xref:System.Lazy%602.Metadata%2A> property and the <xref:System.Lazy%601.Value%2A>property respectively. In this case, if the `Symbol` property of the `IOperationData` object is discovered to be a match, the calculator calls the `Operate` method of the `IOperation` object and returns the result.  
+ The initial steps parse the input string into left and right operands and an operator character.  In the `foreach` loop, every member of the `operations` collection is examined. These objects are of type <xref:System.Lazy%602>, and their metadata values and exported object can be accessed with the <xref:System.Lazy%602.Metadata%2A> property and the <xref:System.Lazy%601.Value%2A> property respectively. In this case, if the `Symbol` property of the `IOperationData` object is discovered to be a match, the calculator calls the `Operate` method of the `IOperation` object and returns the result.  
   
  To complete the calculator, you also need a helper method that returns the position of the first non-digit character in a string.  Add the following helper method to the `MySimpleCalculator` class:  
   
@@ -474,4 +474,4 @@ public class Mod : SimpleCalculator.IOperation
 ## Where Do I Go Now?  
  To download the complete code for this example, see the [SimpleCalculator sample](http://code.msdn.microsoft.com/windowsdesktop/Simple-Calculator-MEF-1152654e).  
   
- For more information and code examples, see [Managed Extensibility Framework](http://go.microsoft.com/fwlink/?LinkId=144282). For a list of the MEF types, see the <xref:System.ComponentModel.Composition?displayProperty=fullName> namespace.
+ For more information and code examples, see [Managed Extensibility Framework](http://go.microsoft.com/fwlink/?LinkId=144282). For a list of the MEF types, see the <xref:System.ComponentModel.Composition?displayProperty=nameWithType> namespace.

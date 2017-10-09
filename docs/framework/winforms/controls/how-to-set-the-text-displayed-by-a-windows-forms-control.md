@@ -54,7 +54,7 @@ Windows Forms controls usually display some text that is related to the primary 
        GraphicsUnit.Point);  
     ```  
   
-    ```cpp#  
+    ```cpp  
     button1->Text = "Click here to save changes";  
     button1->Font = new System::Drawing::Font("Arial",  
        10, FontStyle::Bold, GraphicsUnit::Point);  
@@ -71,11 +71,11 @@ Windows Forms controls usually display some text that is related to the primary 
     mpMenuItem.Text = "&& Now For Something Completely Different";  
     ```  
   
-    ```cpp#  
+    ```cpp  
     mpMenuItem->Text = "&& Now For Something Completely Different";  
     ```  
   
 ## See Also  
- <xref:System.Windows.Forms.Control.Text%2A?displayProperty=fullName>   
+ <xref:System.Windows.Forms.Control.Text%2A?displayProperty=nameWithType>   
  [How to: Create Access Keys for Windows Forms Controls](../../../../docs/framework/winforms/controls/how-to-create-access-keys-for-windows-forms-controls.md)   
  [How to: Respond to Windows Forms Button Clicks](../../../../docs/framework/winforms/controls/how-to-respond-to-windows-forms-button-clicks.md)
