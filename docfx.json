@@ -171,6 +171,7 @@
       "_zip/msdnsmallset.yml",
       "_zip/roslyn.yml"
     ],
-    "lruSize": 0
+    "lruSize": 0,
+    "exportRawModel": true
   }
 }
