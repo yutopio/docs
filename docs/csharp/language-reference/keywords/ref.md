@@ -1,6 +1,6 @@
 ---
 title: "ref (C# Reference)"
-ms.date: "2017-05-30"
+ms.date: 05/30/2017
 ms.prod: .net
 ms.technology: 
   - "devlang-csharp"
@@ -15,20 +15,6 @@ ms.assetid: b8a5e59c-907d-4065-b41d-95bf4273c0bd
 caps.latest.revision: 32
 author: "BillWagner"
 ms.author: "wiwagn"
-translation.priority.ht: 
-  - "cs-cz"
-  - "de-de"
-  - "es-es"
-  - "fr-fr"
-  - "it-it"
-  - "ja-jp"
-  - "ko-kr"
-  - "pl-pl"
-  - "pt-br"
-  - "ru-ru"
-  - "tr-tr"
-  - "zh-cn"
-  - "zh-tw"
 ---
 # ref (C# Reference)
 
@@ -98,7 +84,7 @@ A reference return value is defined by using the `ref` keyword:
    ref return Decimal.Zero;
    ``` 
 
-In order for the caller to modify the an object's state, the reference return value must be stored to a variable that is explicitly defined as a [ref local](#ref-locals). 
+In order for the caller to modify the object's state, the reference return value must be stored to a variable that is explicitly defined as a [ref local](#ref-locals). 
 
 For an example, see [A ref returns and ref locals example](#a-ref-returns-and-ref-locals-example)
 
