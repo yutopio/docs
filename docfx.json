@@ -84,20 +84,6 @@
           "samples/**/*.*",
           "_themes/DocPacker/**"
         ]
-      },
-      {
-        "files": [
-          "**/*.png",
-          "**/*.svg",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.bmp"
-        ],
-        "src": "add",
-        "dest": ".",
-        "exclude": [
-          "metadata/**/*.*"
-        ]
       }
     ],
     "overwrite": {
