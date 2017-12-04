@@ -1,6 +1,6 @@
 {
   "build": {
-    "xrefService": "https://xref.docs.microsoft.com/query?uid={uid}&vendor=dotnet-api-docs-master|> removeHost|> addQueryString branch",
+    "xrefService": "https://xref.docs.microsoft.com/query?uid={uid}&vendor=dotnet-api-docs-master|> removeHost",
     "markdownEngineName": "dfm-latest",
     "content": [
       {
